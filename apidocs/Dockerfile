@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
-RUN npm install apidoc -g
+RUN npm install apidoc@0.17.7 -g
 
-RUN echo 123
+CMD apidoc
 
 WORKDIR /app
